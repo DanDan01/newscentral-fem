@@ -1,0 +1,31 @@
+:root {
+    --primary-font: 'Inter', sans-serif;
+
+    --p-soft-orange: hsl(35, 77%, 62%);
+    --p-soft-red: hsl(5, 85%, 63%);
+    
+    --n-off-white: hsl(36, 100%, 99%);
+    --n-grayish-blue: hsl(233, 8%, 79%);
+    --n-darkish-grayish-blue: hsl(236, 13%, 42%);
+    --soft-orange: hsl(240, 100%, 5%);
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 6rem;
+    padding: 0;
+    font-family: var(--primary-font);
+    border: 1px solid black;
+}
+
+
+
+p {
+    font-size: 15px;
+}
